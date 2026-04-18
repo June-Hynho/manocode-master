@@ -5,7 +5,7 @@ from camoufox.async_api import AsyncCamoufox
 
 from prompt_toolkit import PromptSession
 from prompt_toolkit.patch_stdout import patch_stdout
-from prompt_toolkit import print_formatted_text as print
+from prompt_toolkit import print_formatted_text as fprint
 
 from manocode.sseparser import get_message_chatgpt_patch, parse_chatgpt_patch, custom_parse_sse
 
