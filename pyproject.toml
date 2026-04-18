@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manocode"
+version = "0.0.2"
+description = "lol"
+requires-python = ">=3.11"
+dependencies = [
+	"camoufox",
+	"prompt_toolkit",
+	"jsonpatch"
+]
+
+[project.scripts]
+manocode = "manocode.tool:run"
